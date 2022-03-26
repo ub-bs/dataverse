@@ -6,7 +6,7 @@
 	nrdSourceOfDataParticipants	Source of Data/Participants	The source of the data/participants (e.g. students, practitioners, representative sampling from population)		text	2	#VALUE	TRUE	TRUE	FALSE	TRUE	FALSE	FALSE		customNRD	
 	nrdNegotiationContext	Negotiation Context (Check all that apply)	The context in which the data was collected		text	3	#VALUE	TRUE	TRUE	TRUE	TRUE	FALSE	FALSE		customNRD	
 	nrdOtherNegotiationContext	Other Negotiation Context	Another context in which the data was collected		text	4	#VALUE	TRUE	FALSE	TRUE	TRUE	FALSE	FALSE		customNRD	
-	nrdStudyDesign	Study Design			none	5	;	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE			
+	nrdStudyDesign	Study Design			none	5	;	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE		customNRD	
 	nrdStudyDesignSampleSize	Sample Size	The number of participants for whom data was collected		text	6	#VALUE	TRUE	TRUE	FALSE	TRUE	FALSE	FALSE	nrdStudyDesign	customNRD	
 	nrdStudyDesignRandomization	Study Design Randomization	Randomization in the study design (e.g. to different conditions, roles)		textbox	7	#VALUE	TRUE	FALSE	FALSE	FALSE	FALSE	FALSE	nrdStudyDesign	customNRD	
 	nrdStudyDesignOutcomes	Outcomes			textbox	8	#VALUE	TRUE	FALSE	FALSE	FALSE	FALSE	FALSE	nrdStudyDesign	customNRD	
