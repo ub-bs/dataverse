@@ -1,19 +1,19 @@
 #metadataBlock	name	dataverseAlias	displayName	blockURI												
 	customNRD	NegotiationDataRepository	Negotiation Data Repository Metadata													
 #datasetField	name	title	description	watermark	 fieldType	displayOrder	displayFormat	advancedSearchField	allowControlledVocabulary	allowmultiples	facetable	displayoncreate	required	parent	metadatablock_id	termURI
-	nrdDataType	Data Type (Check all that apply)	The type of data included in the dataset's files		text	0		TRUE	TRUE	TRUE	TRUE	FALSE	FALSE		customNRD	
-	nrdOtherDataType	Other Data Type	Another type of data included in the dataset's files		text	1		TRUE	FALSE	TRUE	TRUE	FALSE	FALSE		customNRD	
-	nrdSourceOfDataParticipants	Source of Data/Participants	The source of the data/participants (e.g. students, practitioners, representative sampling from population)		text	2		TRUE	TRUE	FALSE	TRUE	FALSE	FALSE		customNRD	
-	nrdNegotiationContext	Negotiation Context (Check all that apply)	The context in which the data was collected		text	3		TRUE	TRUE	TRUE	TRUE	FALSE	FALSE		customNRD	
-	nrdOtherNegotiationContext	Other Negotiation Context	Another context in which the data was collected		text	4		TRUE	FALSE	TRUE	TRUE	FALSE	FALSE		customNRD	
-	nrdStudyDesign	Study Design			none	5		FALSE	FALSE	FALSE	FALSE	FALSE	FALSE			
-	nrdStudyDesignSampleSize	Sample Size	The number of participants for whom data was collected		text	6		TRUE	TRUE	FALSE	TRUE	FALSE	FALSE	nrdStudyDesign	customNRD	
-	nrdStudyDesignRandomization	Study Design Randomization	Randomization in the study design (e.g. to different conditions, roles)		textbox	7		TRUE	FALSE	FALSE	FALSE	FALSE	FALSE	nrdStudyDesign	customNRD	
-	nrdStudyDesignOutcomes	Outcomes			textbox	8		TRUE	FALSE	FALSE	FALSE	FALSE	FALSE	nrdStudyDesign	customNRD	
-	nrdIRBApproval	I confirm that I have IRB approval to share these data for academic purposes	Whether or not there's IRB approval to share these data for academic purposes		text	9		TRUE	TRUE	FALSE	TRUE	FALSE	FALSE		customNRD	
-	nrdNoPIIConfirmation	I confirm that these data do not contain any direct personal identifiers	Whether or not these data contain any direct personal identifiers		text	10		TRUE	TRUE	FALSE	TRUE	FALSE	FALSE		customNRD	
-	nrdConsentConfirmation	I confirm that all people in this dataset have given informed consent	Whether or not all people in this dataset have given informed consent		text	11		TRUE	TRUE	FALSE	TRUE	FALSE	FALSE		customNRD	
-	nrdVariableConfirmation	I confirm that I am including a data dictionary/survey legend explaining the variables in my dataset	Whether or not a data dictionary or survey legend has been created to explain the variables in the dataset		text	12		TRUE	TRUE	FALSE	TRUE	FALSE	FALSE		customNRD	
+	nrdDataType	Data Type (Check all that apply)	The type of data included in the dataset's files		text	0	#VALUE	TRUE	TRUE	TRUE	TRUE	FALSE	FALSE		customNRD	
+	nrdOtherDataType	Other Data Type	Another type of data included in the dataset's files		text	1	#VALUE	TRUE	FALSE	TRUE	TRUE	FALSE	FALSE		customNRD	
+	nrdSourceOfDataParticipants	Source of Data/Participants	The source of the data/participants (e.g. students, practitioners, representative sampling from population)		text	2	#VALUE	TRUE	TRUE	FALSE	TRUE	FALSE	FALSE		customNRD	
+	nrdNegotiationContext	Negotiation Context (Check all that apply)	The context in which the data was collected		text	3	#VALUE	TRUE	TRUE	TRUE	TRUE	FALSE	FALSE		customNRD	
+	nrdOtherNegotiationContext	Other Negotiation Context	Another context in which the data was collected		text	4	#VALUE	TRUE	FALSE	TRUE	TRUE	FALSE	FALSE		customNRD	
+	nrdStudyDesign	Study Design			none	5	;	FALSE	FALSE	FALSE	FALSE	FALSE	FALSE			
+	nrdStudyDesignSampleSize	Sample Size	The number of participants for whom data was collected		text	6	#VALUE	TRUE	TRUE	FALSE	TRUE	FALSE	FALSE	nrdStudyDesign	customNRD	
+	nrdStudyDesignRandomization	Study Design Randomization	Randomization in the study design (e.g. to different conditions, roles)		textbox	7	#VALUE	TRUE	FALSE	FALSE	FALSE	FALSE	FALSE	nrdStudyDesign	customNRD	
+	nrdStudyDesignOutcomes	Outcomes			textbox	8	#VALUE	TRUE	FALSE	FALSE	FALSE	FALSE	FALSE	nrdStudyDesign	customNRD	
+	nrdIRBApproval	I confirm that I have IRB approval to share these data for academic purposes	Whether or not there's IRB approval to share these data for academic purposes		text	9	#VALUE	TRUE	TRUE	FALSE	TRUE	FALSE	FALSE		customNRD	
+	nrdNoPIIConfirmation	I confirm that these data do not contain any direct personal identifiers	Whether or not these data contain any direct personal identifiers		text	10	#VALUE	TRUE	TRUE	FALSE	TRUE	FALSE	FALSE		customNRD	
+	nrdConsentConfirmation	I confirm that all people in this dataset have given informed consent	Whether or not all people in this dataset have given informed consent		text	11	#VALUE	TRUE	TRUE	FALSE	TRUE	FALSE	FALSE		customNRD	
+	nrdVariableConfirmation	I confirm that I am including a data dictionary/survey legend explaining the variables in my dataset	Whether or not a data dictionary or survey legend has been created to explain the variables in the dataset		text	12	#VALUE	TRUE	TRUE	FALSE	TRUE	FALSE	FALSE		customNRD	
 #controlledVocabulary	DatasetField	Value	identifier	displayOrder												
 	nrdDataType	Lab survey and simulation data		0												
 	nrdDataType	Field survey data		1												
